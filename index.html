@@ -11,45 +11,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font family  -->
+    <style>
+      .manrope{
+        font-family: 'Manrope', sans-serif;
+      }
+    </style>
 
 </head>
-<body>
+<body class="manrope">
     <header class="container mx-auto">
         <!-- banner section  -->
-        <div class="carousel w-full">
+        <div class="carousel w-full py-8">
             <div id="slide1" class="carousel-item relative w-full">
-              <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
+              <img src="images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform gap-2  bottom-3 left-3">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
-              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <img src="images/Banner Image.png" class="w-full" />
+              <div class="absolute flex justify-between transform gap-2  bottom-3 left-3 ">
                 <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full">
-              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
-            </div>
-          </div>
+            </div> 
+        </div>
+        
           <!-- end Banner section  -->
+          <!-- banner bonus section finish after  -->
           
     </header>
-    <main class="container mx-auto></main>
+    <main class="container mx-auto my-14"> 
+      <!-- porfesstional section  -->
+      <hr class="decoration-dashed">
+
+      <!-- porfesstional title  -->
+      <div class="text-center my-12">
+        <h1 class="text-2xl lg:text-4xl font-extrabold my-2">Professional Hockeys Club</h1>
+        <p>Where did hockey originate? Who set down the first rules of the modern game  Whether simply want to <br> impress you mates with you </p>
+      </div>
+      <hr class="decoration-dashed">
+
+      <!-- professtional parcentage section  -->
+      <div class="flex flex-col lg:flex-row gap-5 my-5">
+        <div class="flex-1 flex flex-col justify-center items-center">
+          <div class="radial-progress text-red-600 " style="--value:87;" role="progressbar">87%</div>
+          <h4 class="py-2 text-base font-semibold">Prayer Facility</h4>
+          <p class="text-center text-xs text-gray-400">The roots of hockey are buried deep in <br> antiquity. Historical records show tha</p>
+        </div>
+
+        <div class="flex-1 flex flex-col justify-center items-center">
+          <div class="radial-progress text-green-400" style="--value:93;" role="progressbar">95%</div>
+          <h4 class="py-2 text-base font-semibold">Experienced Coach</h4>
+          <p class="text-center text-xs text-gray-400">The roots of hockey are buried deep in <br> antiquity. Historical records show tha</p>
+        </div>
+
+        <div class="flex-1 flex flex-col justify-center items-center">
+          <div class="radial-progress text-orange-400" style="--value:90;" role="progressbar">90%</div>
+          <h4 class="py-2 text-base font-semibold">Senior Player</h4>
+          <p class="text-center text-xs text-gray-400">The roots of hockey are buried deep in <br> antiquity. Historical records show tha</p>
+        </div>
+
+        <div class="flex-1 flex flex-col justify-center items-center">
+          <div class="radial-progress text-blue-400" style="--value:80;" role="progressbar">80%</div>
+          <h4 class="py-2 text-base font-semibold">Training Ground</h4>
+          <p class="text-center text-xs text-gray-400">The roots of hockey are buried deep in  <br>Historical records show tha</p>
+        </div>
+      </div>
+
+    </main>
     <footer></footer>
 </body>
 </html>
